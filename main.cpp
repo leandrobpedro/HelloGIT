@@ -1,13 +1,15 @@
 #include <iostream>
 
-int main()
+using std;
+
+int main(int argc, char const *argv[])
 {
-	for (int i = 0; i < 10; ++i)
+	for (int i = 1; i < 10; ++i)
 	{
-		if (i > 0)
-		{
-			std::count << 42 / i;
-		}
+		//if (i > 0)
+		//{
+			cout << 42 / i;
+		//}
 	}
 	return 0;
 }
